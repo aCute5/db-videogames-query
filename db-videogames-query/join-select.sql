@@ -36,3 +36,4 @@ SELECT DISTINCT videogames.id
 FROM videogames
 INNER JOIN reviews ON videogames.id = reviews.videogame_id
 WHERE reviews.rating IS NOT NULL;
+
